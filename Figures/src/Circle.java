@@ -1,4 +1,4 @@
-import Java.util.Arrays;
+import java.util.Arrays;
 
 public class Circle extends Shape{
     private final char[][] circle;
@@ -7,7 +7,7 @@ public class Circle extends Shape{
         super(color);
 
         char[][] circle = new char [15][15];
-        circle[0] = new char[] {0,' ',0,' ',0,' ',0,' ',0,' ',0,' ',0,' ',0};
+        circle[0]=circle[14] = new char[] {'0',' ','0',' ','0',' ','0',' ','0',' ','0',' ','0',' ','0'};
         circle[1]=circle[3]=circle[5]=circle[7]=circle[9]=circle[11]=circle[13]= new char[] {' '};
         circle[2][0] = circle[2][5] = circle[2][7]=circle[2][9]=circle[2][14]='0';
         circle[4][0] = circle[4][3]= circle[4][11]=circle[4][14]='0';

@@ -4,6 +4,7 @@ public class Main {
         Shape[] shapes = new Shape[2];
         shapes[0] = new Circle("red");   
         shapes[0].draw(shapes[0].getShape());
+        System.out.println();
         shapes[1] = new Rectangle("red");
         shapes[1].draw(shapes[1].getShape());   
     }
