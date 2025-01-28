@@ -1,5 +1,8 @@
 public class Basket {
     int vol;
-    Product[] basket = new Product[vol];
-    Basket(int v) {this.vol = v;}
+    Product[] basket;
+    public Basket(int v) {
+        this.vol = v;
+        basket = new Product[vol];
+    }
 }
