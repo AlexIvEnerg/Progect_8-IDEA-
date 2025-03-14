@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Internet-shop">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../Internet-shop" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../Internet-shop/Module_1/src" />
+      <root url="file://$PROJECT_DIR$/../Internet-shop/src" />
+    </SOURCES>
+  </library>
+</component>
