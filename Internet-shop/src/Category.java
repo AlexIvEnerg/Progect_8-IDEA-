@@ -1,4 +1,5 @@
-public class Category {
+
+public class Category {  // кат-рии разновидностей товаров
     String name;
     int vol; // колич-во товаров в категории
     Product[] goods = new Product[vol];
@@ -11,7 +12,7 @@ public class Category {
     }
     public void forPrint(Product[] arr) {
        for (Product prod : arr) {
-           System.out.print(prod.getName()+" "+prod.value+" "+prod.rating+", ");
+           System.out.println(prod.getName()+" "+prod.value+" "+prod.rating+", ");
        }
        System.out.println();
     }

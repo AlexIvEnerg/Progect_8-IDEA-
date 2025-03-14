@@ -1,3 +1,4 @@
+
 public class User {
     String Login;
     String Password;
@@ -8,6 +9,6 @@ public class User {
         this.Login = log;
         this.Password = pass;
         bask = new Basket(numb);
-
     }
+
 }

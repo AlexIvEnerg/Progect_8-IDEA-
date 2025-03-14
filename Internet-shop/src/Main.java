@@ -1,3 +1,5 @@
+
+
 public class Main {
     public static void main(String[] args) {
         Category cat1 = new Category(5, "cat1"); // Vegetate
@@ -6,7 +8,7 @@ public class Main {
         User user_1 = new User(6, "Charlotte", "f157");
         User user_2 = new User(3, "Camilla", "t284");
         User user_3 = new User(5,"John", "m426");
-        Product[] bask1 = new Product[cat1.vol];
+        Product[] bask1 = new Product[cat1.vol]; // vol - количество товаров в кат-рии
         bask1[0]= new Product("Tomatoes",50.4,7);
         bask1[1]= new Product("Cucumber", 40.8, 6);
         bask1[2]= new Product("Carrot", 30.7, 4); // морковь
