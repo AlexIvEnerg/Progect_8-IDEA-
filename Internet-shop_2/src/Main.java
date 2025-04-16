@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.regex.Pattern;
 
 public class Main {
     public static void main(String[] args) {
@@ -104,20 +105,41 @@ public class Main {
             name_cat = scanner6.nextLine();
         }
         System.out.println("Пожалуйста, внесите оплату за каждый выбранный товар");
-        double pay;
+
+        double[] pay = new double[buyer.n];
         Scanner scan_pay = new Scanner(System.in);
             for (int n = 0; n < buyer.n; n++) {
                 System.out.println(buyer.user.bask.basket[n].getName() + "="
                         + buyer.user.bask.basket[n].value);
+                boolean validInput = false;
                 do {
-                    pay = scan_pay.nextDouble();
-                    System.out.println(" ");
-                    if (pay < buyer.user.bask.basket[n].value) System.out.println("введённая величина меньше " +
-                            "требуемой, внесите верную оплату ");
-                    else if (pay > buyer.user.bask.basket[n].value) {
-                        System.out.println("введённая величина больше требуемой, внесите верную оплату ");
+                    while (!validInput) {
+                    if (scan_pay.hasNextDouble()) {
+                        pay[n] = scan_pay.nextDouble();
+                        System.out.println(" ");
+                        if (pay[n] < buyer.user.bask.basket[n].value) System.out.println("введённая величина меньше " +
+                                "требуемой, внесите верную оплату ");
+                        else if (pay[n] > buyer.user.bask.basket[n].value) {
+                            System.out.println("введённая величина больше требуемой, внесите верную оплату ");
+                        }
+                        else {
+                            validInput = true;
+                        }
+                        } else {
+                            System.out.println("Ошибка: введено не число. Пожалуйста, введите число.");
+                            scan_pay.next();
+                        }
                     }
-                } while (pay != buyer.user.bask.basket[n].value);
+                } while (pay[n] != buyer.user.bask.basket[n].value);
             }
+        double sum = 0;
+        System.out.printf("Продукты     Цена%n");
+        System.out.format("----------------%n");
+        for (int i=0; i < buyer.n; i++) {
+            System.out.format("%-8s     %-5s%n",buyer.user.bask.basket[i].getName(), buyer.user.bask.basket[i].value);
+            sum += buyer.user.bask.basket[i].value;
+        }
+        System.out.format("----------------%n");
+        System.out.printf("%-8s     %.2f%n","Итого:" ,sum);
     }
 }
