@@ -175,7 +175,7 @@ public class Main {
         string_3 = print.getString("Curr");
         string_4 = print.getString("Res") ;
         NumberFormat numberFormat = NumberFormat.getCurrencyInstance(locale);
-        System.out.printf("%-8s     %-5s%n",string_1,  string_2);
+        System.out.printf("%-8s  %-5s%n",string_1,  string_2);
         System.out.format("----------------%n");
         for (int i=0; i < buyer.n; i++) {
             System.out.format("%-8s     %-5s    %-1s%n",buyer.user.bask.basket[i].getName(), buyer.user.bask.basket[i].value, string_3);
