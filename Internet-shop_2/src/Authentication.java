@@ -14,18 +14,18 @@ public class Authentication {
                 log = scanner.nextLine();
                 System.out.println(log);
             } else {
-                System.out.println("РРјСЏ РЅРµ РІРІРµРґРµРЅРѕ, РїРѕРІС‚РѕСЂРёС‚Рµ РІРІРѕРґ: ");
+                System.out.println("Имя не введено, повторите ввод: ");
                 check = true;
             }
         } while (check);
-        System.out.println("РџР°СЂРѕР»СЊ : ");
+        System.out.println("Пароль : ");
         do {
             check = false;
             if (scanner.hasNextLine()) {
                 pass = scanner.nextLine();
                 System.out.println(pass);
             } else {
-                System.out.println("РџР°СЂРѕР»СЊ РЅРµ РІРІРµРґС‘РЅ, РїРѕРІС‚РѕСЂРёС‚Рµ РІРІРѕРґ: ");
+                System.out.println("Пароль не введён, повторите ввод: ");
                 check = true;
             }
         } while (check);

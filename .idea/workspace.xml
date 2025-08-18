@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="db68c2cc-801f-4ba7-9cb6-7cecc0403749" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Figures/Figures.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Internet-shop_1/Internet-shop_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Internet-shop_2/Internet-shop_2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Internet-shop_2/out/production/Internet-shop_1/Basket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Internet-shop_2/out/production/Internet-shop_1/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Internet-shop_2/out/production/Internet-shop_1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Internet-shop_2/out/production/Internet-shop_1/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Internet-shop_2/out/production/Internet-shop_1/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Internet-shop_2/out/production/Internet-shop_2/Authentication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Internet-shop_2/out/production/Internet-shop_2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Internet-shop_2/out/production/Internet-shop_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Internet-shop_2/out/production/Internet-shop_2/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AlexIvEnerg"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:AlexIvEnerg/Progect_8-IDEA-.git",
+    "accountId": "42cdd2c1-dd38-41d9-9177-a4a2d2bf7f3f"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="30MzA6BPHvr7ahLYqlK2aH7y6wI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Обучение Java/IdeaProjects/Project_8 (OOP)"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db68c2cc-801f-4ba7-9cb6-7cecc0403749" name="Changes" comment="" />
+      <created>1753452083031</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1753452083031</updated>
+    </task>
+    <servers />
+  </component>
+</project>
